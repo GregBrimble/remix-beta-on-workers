@@ -1,8 +1,13 @@
 name = "remix"
-type = "webpack"
+type = "javascript"
 account_id = "5a883b414d4090a1442b20361f3c43a9"
 workers_dev = true
 
 [site]
 bucket = "./public"
 entry-point = "workers-site"
+
+[build]
+upload_format = "service-worker"
+command = "npm install && npm run build"
+cwd = "workers-site"

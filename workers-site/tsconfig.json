@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "lib": ["esnext", "webworker"],
+    "types": ["@cloudflare/workers-types"]
+  }
+}

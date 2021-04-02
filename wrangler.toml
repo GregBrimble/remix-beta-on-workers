@@ -1,0 +1,8 @@
+name = "remix"
+type = "webpack"
+account_id = "5a883b414d4090a1442b20361f3c43a9"
+workers_dev = true
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
